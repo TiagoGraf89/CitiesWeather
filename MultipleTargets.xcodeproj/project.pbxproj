@@ -7,25 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60AEB29A1DD76B5A005ECCF8 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AEB2991DD76B5A005ECCF8 /* WeatherAPI.swift */; };
+		60AEB29C1DD78E3F005ECCF8 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AEB29B1DD78E3F005ECCF8 /* MapsViewController.swift */; };
+		60AEB29D1DD795C7005ECCF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B1EDAF1DCE103B007AE460 /* Main.storyboard */; };
+		60AEB29E1DD795D0005ECCF8 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AEB2991DD76B5A005ECCF8 /* WeatherAPI.swift */; };
+		60AEB29F1DD795D3005ECCF8 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AEB29B1DD78E3F005ECCF8 /* MapsViewController.swift */; };
 		60B1EDAC1DCE103B007AE460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1EDAB1DCE103B007AE460 /* AppDelegate.swift */; };
-		60B1EDAE1DCE103B007AE460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1EDAD1DCE103B007AE460 /* ViewController.swift */; };
 		60B1EDB11DCE103B007AE460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B1EDAF1DCE103B007AE460 /* Main.storyboard */; };
 		60B1EDB31DCE103B007AE460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B1EDB21DCE103B007AE460 /* Assets.xcassets */; };
 		60B1EDB61DCE103B007AE460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B1EDB41DCE103B007AE460 /* LaunchScreen.storyboard */; };
+		60B1EDCB1DCE10EF007AE460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B1EDCA1DCE10EF007AE460 /* Assets.xcassets */; };
+		60B1EDCE1DCE10EF007AE460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B1EDCC1DCE10EF007AE460 /* LaunchScreen.storyboard */; };
+		60B1EDD41DCE14B3007AE460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1EDAB1DCE103B007AE460 /* AppDelegate.swift */; };
+		60B1EDD61DCE15C4007AE460 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1EDD51DCE15C4007AE460 /* CollectionViewController.swift */; };
+		60B1EDD71DCE15C4007AE460 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1EDD51DCE15C4007AE460 /* CollectionViewController.swift */; };
+		60B1EDE21DCE188D007AE460 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1EDE11DCE188D007AE460 /* WeatherCell.swift */; };
+		60B1EDE31DCE188D007AE460 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1EDE11DCE188D007AE460 /* WeatherCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60AEB2991DD76B5A005ECCF8 /* WeatherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		60AEB29B1DD78E3F005ECCF8 /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		60B1EDA81DCE103B007AE460 /* MultipleTargets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleTargets.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		60B1EDAB1DCE103B007AE460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60B1EDAD1DCE103B007AE460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60B1EDAB1DCE103B007AE460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MultipleTargets/AppDelegate.swift; sourceTree = "<group>"; };
 		60B1EDB01DCE103B007AE460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60B1EDB21DCE103B007AE460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60B1EDB51DCE103B007AE460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60B1EDB71DCE103B007AE460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B1EDC11DCE10EF007AE460 /* MultipleTargetsLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleTargetsLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B1EDCA1DCE10EF007AE460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60B1EDCD1DCE10EF007AE460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60B1EDCF1DCE10EF007AE460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B1EDD51DCE15C4007AE460 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		60B1EDE11DCE188D007AE460 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		60B1EDA51DCE103A007AE460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B1EDBE1DCE10EF007AE460 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +63,9 @@
 		60B1ED9F1DCE103A007AE460 = {
 			isa = PBXGroup;
 			children = (
+				60B1EDD31DCE126F007AE460 /* Shared */,
 				60B1EDAA1DCE103B007AE460 /* MultipleTargets */,
+				60B1EDC21DCE10EF007AE460 /* MultipleTargetsLite */,
 				60B1EDA91DCE103B007AE460 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				60B1EDA81DCE103B007AE460 /* MultipleTargets.app */,
+				60B1EDC11DCE10EF007AE460 /* MultipleTargetsLite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +82,34 @@
 		60B1EDAA1DCE103B007AE460 /* MultipleTargets */ = {
 			isa = PBXGroup;
 			children = (
-				60B1EDAB1DCE103B007AE460 /* AppDelegate.swift */,
-				60B1EDAD1DCE103B007AE460 /* ViewController.swift */,
-				60B1EDAF1DCE103B007AE460 /* Main.storyboard */,
 				60B1EDB21DCE103B007AE460 /* Assets.xcassets */,
 				60B1EDB41DCE103B007AE460 /* LaunchScreen.storyboard */,
 				60B1EDB71DCE103B007AE460 /* Info.plist */,
 			);
 			path = MultipleTargets;
+			sourceTree = "<group>";
+		};
+		60B1EDC21DCE10EF007AE460 /* MultipleTargetsLite */ = {
+			isa = PBXGroup;
+			children = (
+				60B1EDCA1DCE10EF007AE460 /* Assets.xcassets */,
+				60B1EDCC1DCE10EF007AE460 /* LaunchScreen.storyboard */,
+				60B1EDCF1DCE10EF007AE460 /* Info.plist */,
+			);
+			path = MultipleTargetsLite;
+			sourceTree = "<group>";
+		};
+		60B1EDD31DCE126F007AE460 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				60B1EDAB1DCE103B007AE460 /* AppDelegate.swift */,
+				60B1EDAF1DCE103B007AE460 /* Main.storyboard */,
+				60B1EDD51DCE15C4007AE460 /* CollectionViewController.swift */,
+				60B1EDE11DCE188D007AE460 /* WeatherCell.swift */,
+				60AEB2991DD76B5A005ECCF8 /* WeatherAPI.swift */,
+				60AEB29B1DD78E3F005ECCF8 /* MapsViewController.swift */,
+			);
+			name = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +132,23 @@
 			productReference = 60B1EDA81DCE103B007AE460 /* MultipleTargets.app */;
 			productType = "com.apple.product-type.application";
 		};
+		60B1EDC01DCE10EF007AE460 /* MultipleTargetsLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B1EDD01DCE10EF007AE460 /* Build configuration list for PBXNativeTarget "MultipleTargetsLite" */;
+			buildPhases = (
+				60B1EDBD1DCE10EF007AE460 /* Sources */,
+				60B1EDBE1DCE10EF007AE460 /* Frameworks */,
+				60B1EDBF1DCE10EF007AE460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleTargetsLite;
+			productName = MultipleTargetsLite;
+			productReference = 60B1EDC11DCE10EF007AE460 /* MultipleTargetsLite.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +160,10 @@
 				ORGANIZATIONNAME = "TIAGO AUGUSTO GRAF";
 				TargetAttributes = {
 					60B1EDA71DCE103A007AE460 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					60B1EDC01DCE10EF007AE460 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -114,6 +183,7 @@
 			projectRoot = "";
 			targets = (
 				60B1EDA71DCE103A007AE460 /* MultipleTargets */,
+				60B1EDC01DCE10EF007AE460 /* MultipleTargetsLite */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +199,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60B1EDBF1DCE10EF007AE460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B1EDCE1DCE10EF007AE460 /* LaunchScreen.storyboard in Resources */,
+				60B1EDCB1DCE10EF007AE460 /* Assets.xcassets in Resources */,
+				60AEB29D1DD795C7005ECCF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -136,8 +216,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60B1EDAE1DCE103B007AE460 /* ViewController.swift in Sources */,
+				60AEB29C1DD78E3F005ECCF8 /* MapsViewController.swift in Sources */,
+				60B1EDD61DCE15C4007AE460 /* CollectionViewController.swift in Sources */,
+				60AEB29A1DD76B5A005ECCF8 /* WeatherAPI.swift in Sources */,
 				60B1EDAC1DCE103B007AE460 /* AppDelegate.swift in Sources */,
+				60B1EDE21DCE188D007AE460 /* WeatherCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B1EDBD1DCE10EF007AE460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B1EDD71DCE15C4007AE460 /* CollectionViewController.swift in Sources */,
+				60B1EDD41DCE14B3007AE460 /* AppDelegate.swift in Sources */,
+				60AEB29E1DD795D0005ECCF8 /* WeatherAPI.swift in Sources */,
+				60AEB29F1DD795D3005ECCF8 /* MapsViewController.swift in Sources */,
+				60B1EDE31DCE188D007AE460 /* WeatherCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,12 +245,21 @@
 				60B1EDB01DCE103B007AE460 /* Base */,
 			);
 			name = Main.storyboard;
+			path = MultipleTargets;
 			sourceTree = "<group>";
 		};
 		60B1EDB41DCE103B007AE460 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				60B1EDB51DCE103B007AE460 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		60B1EDCC1DCE10EF007AE460 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B1EDCD1DCE10EF007AE460 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -262,8 +366,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultipleTargets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DFULL";
 				PRODUCT_BUNDLE_IDENTIFIER = graf.MultipleTargets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,7 +380,35 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultipleTargets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DFULL";
 				PRODUCT_BUNDLE_IDENTIFIER = graf.MultipleTargets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		60B1EDD11DCE10EF007AE460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultipleTargetsLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DLITE";
+				PRODUCT_BUNDLE_IDENTIFIER = graf.MultipleTargetsLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		60B1EDD21DCE10EF007AE460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultipleTargetsLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DLITE";
+				PRODUCT_BUNDLE_IDENTIFIER = graf.MultipleTargetsLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +433,16 @@
 				60B1EDBC1DCE103B007AE460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B1EDD01DCE10EF007AE460 /* Build configuration list for PBXNativeTarget "MultipleTargetsLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B1EDD11DCE10EF007AE460 /* Debug */,
+				60B1EDD21DCE10EF007AE460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

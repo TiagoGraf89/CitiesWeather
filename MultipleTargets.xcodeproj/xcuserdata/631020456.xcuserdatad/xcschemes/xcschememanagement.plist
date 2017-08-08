@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MultipleTargetsLite.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>60B1EDA71DCE103A007AE460</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60B1EDC01DCE10EF007AE460</key>
 		<dict>
 			<key>primary</key>
 			<true/>
